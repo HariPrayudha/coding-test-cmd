@@ -224,7 +224,7 @@ Total Bayar     = Cicilan/Bulan × Tenor
 
 ```bash
 # Via Git
-git clone <url-repository> coding-test-cmd
+git clone https://github.com/HariPrayudha/coding-test-cmd
 cd coding-test-cmd
 
 # Atau, jika file ZIP:
