@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../views/**/*.blade.php';
+
+@theme {
+    --font-sans:
+        "Plus Jakarta Sans", "Inter", system-ui, -apple-system,
+        BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+    /* Capella Multidana Solid Honey Gold Palette (Matched from capellamultidana.com) */
+    --color-cmd-gold-50: #fffbeb;
+    --color-cmd-gold-100: #fef3c7;
+    --color-cmd-gold-200: #fde68a;
+    --color-cmd-gold-300: #fcd34d;
+    --color-cmd-gold-400: #fbbf24;
+    --color-cmd-gold-500: #e59e15;
+    --color-cmd-gold-600: #d48b06;
+    --color-cmd-gold-700: #b47103;
+    --color-cmd-gold-800: #925805;
+    --color-cmd-gold-900: #784405;
+
+    /* Deep Corporate Midnight Navy */
+    --color-cmd-navy-800: #1c274c;
+    --color-cmd-navy-900: #0f172a;
+    --color-cmd-navy-950: #0b132b;
+}
+
+[x-cloak] {
+    display: none !important;
+}
+
+/* Custom smooth scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
